@@ -5,6 +5,10 @@ console.log(name2)
 
 // array
 var names = ["Anushka", "Sujan", "Sujal", "Sujita"]
+console.log(names.includes('Sujan')) // check info in array
+//OR
+var doesExist = names.includes("Sujan")
+console.log(doesExist)
 
 //methods
 names.push("sync") //add into  last element 
