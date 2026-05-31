@@ -17,28 +17,28 @@
 // }
 // while(i<=5){
 // }
- 
+
 // acces data
-var response ={
-    
+var response = {
+
     // status: 100,
     // message:"success",
     // data:[
     //     {
 
-        id: 1,
-        age: 22,
-        name:"anushka",
-        nationality: "nepali"
-    }
+    id: 1,
+    age: 22,
+    name: "anushka",
+    nationality: "nepali"
+}
 // ]
 // }
 // console.log(response.data[0].age)
-for(let key in response){
+for (let key in response) {
     console.log(response[key])
 }
 var names = ["anushka", "sujan", "sujal", "sujita"]
-for (let name of names){
+for (let name of names) {
     console.log(name)
 
 
